@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flashcard" id="flashcard">
+            <div class="content" id="card-content">
+                <p id="pinyin-text"></p>
+                <p id="english-text"></p>
+            </div>
+            <button id="pronounce-btn">Pronounce</button>
+        </div>
+        <div class="card-form">
+            <input type="text" id="pinyin-input" placeholder="Enter Pinyin">
+            <input type="text" id="english-input" placeholder="Enter English meaning/notes">
+            <button id="add-card-btn">Add Card</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
