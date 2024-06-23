@@ -2,6 +2,25 @@ const proxyUrl = 'https://mandarin.fly.dev/tts';
 let flashcards = JSON.parse(localStorage.getItem('flashcards')) || [
     { pinyin: "nǐ hǎo", english: "Hello", audio: `${proxyUrl}?text=nǐ hǎo` },
     { pinyin: "xiè xiè", english: "Thank you", audio: `${proxyUrl}?text=xiè xiè` },
+    { pinyin: "nǐ", english: "You (singular)", audio: `${proxyUrl}?text=nǐ` },
+    { pinyin: "hǎo", english: "Good, Well", audio: `${proxyUrl}?text=hǎo` },
+    { pinyin: "zǎoshang", english: "Morning", audio: `${proxyUrl}?text=zǎoshang` },
+    { pinyin: "hǎojiǔ", english: "long time", audio: `${proxyUrl}?text=hǎojiǔ` },
+    { pinyin: "jiàn", english: "to see", audio: `${proxyUrl}?text=jiàn` },
+    { pinyin: "hǎojiǔ bújian", english: "Long time no see", audio: `${proxyUrl}?text=hǎojiǔ bújian` },
+    { pinyin: "bù", english: "No, not", audio: `${proxyUrl}?text=bù` },
+    { pinyin: "xièxie", english: "thanks", audio: `${proxyUrl}?text=xièxie` },
+    { pinyin: "zàijiàn", english: "good bye; see you", audio: `${proxyUrl}?text=zàijiàn` },
+    { pinyin: "kèqi", english: "polite; courteous", audio: `${proxyUrl}?text=kèqi` },
+    { pinyin: "bú kèqi", english: "You are welcome", audio: `${proxyUrl}?text=bú kèqi` },
+    { pinyin: "gōngxǐ", english: "congratulation; to congratulate", audio: `${proxyUrl}?text=gōngxǐ` },
+    { pinyin: "shēngri", english: "birthday", audio: `${proxyUrl}?text=shēngri` },
+    { pinyin: "kuàilè", english: "happy; glad", audio: `${proxyUrl}?text=kuàilè` },
+    { pinyin: "duìbuqǐ", english: "sorry; excuse me", audio: `${proxyUrl}?text=duìbuqǐ` },
+    { pinyin: "méi guānxi", english: "It doesn't matter", audio: `${proxyUrl}?text=méi guānxi` },
+    { pinyin: "nǐ hǎo", english: "Hello", audio: `${proxyUrl}?text=nǐ hǎo` },
+    { pinyin: "nǐ hǎo", english: "Hello", audio: `${proxyUrl}?text=nǐ hǎo` },
+    { pinyin: "nǐ hǎo", english: "Hello", audio: `${proxyUrl}?text=nǐ hǎo` },
     // Add more initial cards as needed
 ];
 let currentCardIndex = 0;
