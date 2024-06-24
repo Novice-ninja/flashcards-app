@@ -55,7 +55,7 @@ let flashcards = JSON.parse(localStorage.getItem('flashcards')) || [
     { pinyin: "shuí/shéi", english: "who; whom", audio: '${proxyUrl}?text=shuí/shéi' },
     { pinyin: "zhàngfu", english: "husband", audio: '${proxyUrl}?text=zhàngfu' },
     { pinyin: "nǎ/něi", english: "which", audio: '${proxyUrl}?text=nǎ/něi' },
-    { pinyin: "guó", english: "country", audio: '${proxyUrl}?text=guó' }
+    { pinyin: "guó", english: "country", audio: '${proxyUrl}?text=guó' },
     // Add more initial cards as needed
 ];
 let currentCardIndex = 0;
