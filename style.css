@@ -51,6 +51,10 @@ body {
 #pronounce-btn {
     position: absolute;
     bottom: 20px;
+    width: 160px;  /* Adjust this value to increase button width */
+    height: 60px;  /* Adjust this value to increase button height */
+    font-size: 20px;  /* Adjust this value to increase text size */
+    padding: 10px 20px;  /* Adds some padding inside the button */
 }
 
 .card-form {
